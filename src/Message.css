@@ -1,0 +1,24 @@
+.text_mes {
+  background-color: #f0f8ff;
+  border: 2px solid #a0d2eb;
+  padding: 16px 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.text_mes:hover {
+  transform: scale(1.02);
+}
+
+.title {
+  font-weight: bold;
+  color: #0077cc;
+  margin-right: 8px;
+}
